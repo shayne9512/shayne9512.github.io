@@ -597,3 +597,17 @@ padding-left:90px;
   position: absolute;
   width: 100%;
 }
+
+
+/*****Modal*****/
+.modal-dialog {
+  width: 60%;
+  height: 90%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.modal-content {
+  width: auto;
+  min-height: 100%;
+}

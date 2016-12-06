@@ -19,6 +19,16 @@ $(function() {
             top: 100
         }
     })
+
+    $('img').on('click', function() {
+        $('.imagepreview').attr('src', $(this).attr('src'));
+        $('#imagemodal').modal('show');   
+    });
+
+    $('figure').on('click', function() {
+        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+        $('#imagemodal').modal('show');   
+    });
 });
 
 //jQuery to collapse the navbar on scroll
