@@ -38,6 +38,7 @@ p {
 
 .container hr {
 	margin-left: 0;
+  text-align: left;
 }
 
 .row {
@@ -121,7 +122,7 @@ p {
 	      rgba(0, 0, 0, 0.6), 
 	      rgba(0, 0, 0, 0.6)
 	    ),
-    	url(../img/1/image6.png) center top no-repeat fixed;
+    	url(../img/1/image6.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 
@@ -251,7 +252,7 @@ p {
 	      rgba(0, 0, 0, 0.6), 
 	      rgba(0, 0, 0, 0.6)
 	    ),
-    	url(../img/3/image4.png) center top no-repeat fixed;
+    	url(../img/3/image4.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 
@@ -292,7 +293,7 @@ p {
 	      rgba(0, 0, 0, 0.6), 
 	      rgba(0, 0, 0, 0.6)
 	    ),
-    	url(../img/4/image8.png) center top no-repeat fixed;
+    	url(../img/4/image8.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 
@@ -546,7 +547,7 @@ padding-left:90px;
 	      rgba(0, 0, 0, 0.6), 
 	      rgba(0, 0, 0, 0.6)
 	    ),
-    	url(../img/6/image6.png) center top no-repeat fixed;
+    	url(../img/1/image6.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 
@@ -596,6 +597,8 @@ padding-left:90px;
 .footer {
   position: absolute;
   width: 100%;
+  background-color: white;
+  padding: 10px 0;
 }
 
 
